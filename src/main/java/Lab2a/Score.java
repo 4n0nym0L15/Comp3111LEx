@@ -1,6 +1,4 @@
 package Lab2a;
-
-/* 	Comp3111LEx\Lab2a\Score.java */
 public class Score {
     /* A class contains constructor[C], attributes[A] and methods[M]. */
     /* [A] Attribute List */
@@ -14,9 +12,10 @@ public class Score {
         MidTExam = 0;
         FinalExam = 0;
     }
-
     /* [M] Method: It includes procedure and function. */
-    /* Below are Procedures[M1]. Procedure is a sub program to run several process, but not return value(s) */
+    /* Below are Procedures[M1]. Procedure is a sub program to run several process,
+but not return value(s) */
+
     void setQuiz(double x) {
         Quiz = x ;
     }
@@ -27,7 +26,9 @@ public class Score {
         FinalExam = x;
     }
 
-    /* Below are Functions[M2]. Function is statement that creates to run and return value(s) */
+
+    /* Below are Functions[M2]. Function is statement that creates to run
+    and return value(s) */
     double getScore() {
         Score = 0.2*Quiz + 0.3*MidTExam + 0.5*FinalExam;
         return Score;
@@ -58,5 +59,4 @@ public class Score {
             comment = "Very Bad";
         return comment;
     }
-
 }
